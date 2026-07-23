@@ -29,12 +29,11 @@ El proyecto fue desarrollado utilizando las siguientes tecnologías:
 
 La estructura principal del proyecto es la siguiente:
 
-```text ```
-LAB_GRUPAL_ABC_/
-│
-├── index.html
-├── styles.css
-├── script.js
+LAB_GRUPAL_ABC_/ <br>
+│<br>
+├── index.html<br>
+├── styles.css<br>
+├── script.js<br>
 └── README.md
 
 ## Trello
