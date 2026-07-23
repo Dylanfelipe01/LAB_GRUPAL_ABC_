@@ -4,124 +4,188 @@
   <meta charset="UTF-8">
   <title>ABC - LAB</title>
   <link rel="stylesheet" href="styles.css">
-  
-  <!-- Enlaces a Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Playwrite+NZ+Guides&display=swap" rel="stylesheet">
 </head>
 <body class="fondo-principal">
-
-  <!-- navbar -->
   <header class="navbar">
     <h1>ABC - LAB</h1>
     <div class="contador-container">
       Tarjetas vistas: <span id="contador">0</span>
     </div>
   </header>
-
   <div class="filtros">
     <button onclick="filtrar('todas')">Mostrar todas</button>
     <button onclick="filtrar('vocales')">Mostrar vocales</button>
   </div>
-
   <main class="grid-cards">
-
-    <!--letras de la a la e dannis-->
-
-     <div class="card" data-tipo="vocal" onclick="voltear(this)">
-
-    <div class="card-frente">
+    <div class="card" data-tipo="vocal" onclick="voltear(this)">
+      <div class="card-frente">
         <h1>A</h1>
-    </div>
-
-    <div class="card-dorso">
-
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGVCOsNAIKYcNaqpw9QoqVdrWsfRSb-YKDNbdNlS5o3Q&s=10" alt="Aguacate">
-
+      </div>
+      <div class="card-dorso">
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGVCOsNAIKYcNaqpw9QoqVdrWsfRSb-YKDNbdNlS5o3Q&s=10"
+          alt="Aguacate">
         <h3>Aguacate</h3>
-
+      </div>
     </div>
-
-</div>
-
- <div class="card" data-tipo="consonante" onclick="voltear(this)">
-
-    <div class="card-frente">
+    <div class="card" data-tipo="consonante" onclick="voltear(this)">
+      <div class="card-frente">
         <h1>B</h1>
-    </div>
-
-    <div class="card-dorso">
-
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxVphVhREfxnvX-ryt05YgJznLHJJAcHtVWpiBGjc4HA&s=10" alt="Burro">
-
+      </div>
+      <div class="card-dorso">
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxVphVhREfxnvX-ryt05YgJznLHJJAcHtVWpiBGjc4HA&s=10"
+          alt="Burro">
         <h3>Burro</h3>
-
+      </div>
     </div>
-
-</div>
-
- <div class="card" data-tipo="consonante" onclick="voltear(this)">
-
-    <div class="card-frente">
+    <div class="card" data-tipo="consonante" onclick="voltear(this)">
+      <div class="card-frente">
         <h1>C</h1>
-    </div>
-
-    <div class="card-dorso">
-
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWwpI_avS6IuMnvAu3wOT3alxatM0wAScSidrR5BC3Mw&s=10" alt="Casa">
-
+      </div>
+      <div class="card-dorso">
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWwpI_avS6IuMnvAu3wOT3alxatM0wAScSidrR5BC3Mw&s=10"
+          alt="Casa">
         <h3>Casa</h3>
-
+      </div>
     </div>
-
-</div>
-
- <div class="card" data-tipo="consonante" onclick="voltear(this)">
-
-    <div class="card-frente">
+    <div class="card" data-tipo="consonante" onclick="voltear(this)">
+      <div class="card-frente">
         <h1>D</h1>
-    </div>
-
-    <div class="card-dorso">
-
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRD7Mf1IOSajW9jFYb5WR6Sb-h1IK-8vHQQn4EkXi6DmA&s=10" alt="Delfin">
-
+      </div>
+      <div class="card-dorso">
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRD7Mf1IOSajW9jFYb5WR6Sb-h1IK-8vHQQn4EkXi6DmA&s=10"
+          alt="Delfin">
         <h3>Delfin</h3>
-
+      </div>
     </div>
-
-</div>
-
- <div class="card" data-tipo="vocal" onclick="voltear(this)">
-
-    <div class="card-frente">
+    <div class="card" data-tipo="vocal" onclick="voltear(this)">
+      <div class="card-frente">
         <h1>E</h1>
-    </div>
-
-    <div class="card-dorso">
-
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPD6szomkUgQsppwpMDGpUSSZ9f2Tp9sGJzD9JoRo3xQ&s=10" alt="Erizo">
-
+      </div>
+      <div class="card-dorso">
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPD6szomkUgQsppwpMDGpUSSZ9f2Tp9sGJzD9JoRo3xQ&s=10"
+          alt="Erizo">
         <h3>Erizo</h3>
-
+      </div>
     </div>
 
-</div>
-    
-  
-  
-    
+    <div class="card" data-tipo="consonante" onclick="voltear(this)">
+      <div class="card-frente">
+        <h1>F</h1>
+      </div>
+      <div class="card-dorso">
+        <img src="https://via.placeholder.com/100" alt="Foca">
+        <h3>Foca</h3>
+      </div>
+    </div>
+    <div class="card" data-tipo="consonante" onclick="voltear(this)">
+      <div class="card-frente">
+        <h1>G</h1>
+      </div>
+      <div class="card-dorso">
+        <img src="https://via.placeholder.com/100" alt="Gato">
+        <h3>Gato</h3>
+      </div>
+    </div>
+    <div class="card" data-tipo="consonante" onclick="voltear(this)">
+      <div class="card-frente">
+        <h1>H</h1>
+      </div>
+      <div class="card-dorso">
+        <img src="https://via.placeholder.com/100" alt="Helado">
+        <h3>Helado</h3>
+      </div>
+    </div>
+    <div class="card" data-tipo="vocal" onclick="voltear(this)">
+      <div class="card-frente">
+        <h1>I</h1>
+      </div>
+      <div class="card-dorso">
+        <img src="https://via.placeholder.com/100" alt="Iguana">
+        <h3>Iguana</h3>
+      </div>
+    </div>
+    <div class="card" data-tipo="consonante" onclick="voltear(this)">
+      <div class="card-frente">
+        <h1>J</h1>
+      </div>
+      <div class="card-dorso">
+        <img src="https://via.placeholder.com/100" alt="Jirafa">
+        <h3>Jirafa</h3>
+      </div>
+    </div>
+    <div class="card" data-tipo="consonante" onclick="voltear(this)">
+      <div class="card-frente">
+        <h1>K</h1>
+      </div>
+      <div class="card-dorso">
+        <img src="https://via.placeholder.com/100" alt="Kiwi">
+        <h3>Kiwi</h3>
+      </div>
+    </div>
+    <div class="card" data-tipo="consonante" onclick="voltear(this)">
+      <div class="card-frente">
+        <h1>L</h1>
+      </div>
+      <div class="card-dorso">
+        <img src="https://via.placeholder.com/100" alt="Leon">
+        <h3>Leon</h3>
+      </div>
+    </div>
+    <div class="card" data-tipo="consonante" onclick="voltear(this)">
+      <div class="card-frente">
+        <h1>M</h1>
+      </div>
+      <div class="card-dorso">
+        <img src="https://via.placeholder.com/100" alt="Mono">
+        <h3>Mono</h3>
+      </div>
+    </div>
+    <div class="card" data-tipo="consonante" onclick="voltear(this)">
+      <div class="card-frente">
+        <h1>N</h1>
+      </div>
+      <div class="card-dorso">
+        <img src="https://via.placeholder.com/100" alt="Nube">
+        <h3>Nube</h3>
+      </div>
+    </div>
+    <div class="card" data-tipo="consonante" onclick="voltear(this)">
+      <div class="card-frente">
+        <h1>Ñ</h1>
+      </div>
+      <div class="card-dorso">
+        <img src="https://via.placeholder.com/100" alt="Ñandú">
+        <h3>Ñandú</h3>
+      </div>
+    </div>
+    <div class="card" data-tipo="vocal" onclick="voltear(this)">
+      <div class="card-frente">
+        <h1>O</h1>
+      </div>
+      <div class="card-dorso">
+        <img src="https://via.placeholder.com/100" alt="Oso">
+        <h3>Oso</h3>
+      </div>
+    </div>
     <div class="card" data-tipo="consonante" onclick="voltear(this)">
       <div class="card-frente">
         <h1>P</h1>
       </div>
       <div class="card-dorso">
-        <img src="https://es.vecteezy.com/arte-vectorial/12658172-ilustracion-de-vector-de-dibujos-animados-lindo-cachorro-perro" alt="Perro">
+        <img
+          src="https://es.vecteezy.com/arte-vectorial/12658172-ilustracion-de-vector-de-dibujos-animados-lindo-cachorro-perro"
+          alt="Perro">
         <h3>Perro</h3>
       </div>
     </div>
-
     <div class="card" data-tipo="consonante" onclick="voltear(this)">
       <div class="card-frente">
         <h1>Q</h1>
@@ -131,7 +195,6 @@
         <h3>Queso</h3>
       </div>
     </div>
-
     <div class="card" data-tipo="consonante" onclick="voltear(this)">
       <div class="card-frente">
         <h1>R</h1>
@@ -141,7 +204,6 @@
         <h3>Raton</h3>
       </div>
     </div>
-
     <div class="card" data-tipo="consonante" onclick="voltear(this)">
       <div class="card-frente">
         <h1>S</S></h1>
@@ -151,7 +213,6 @@
         <h3>Sombrilla</h3>
       </div>
     </div>
-
     <div class="card" data-tipo="consonante" onclick="voltear(this)">
       <div class="card-frente">
         <h1>T</h1>
@@ -161,9 +222,6 @@
         <h3>Tetero</h3>
       </div>
     </div>
-
-
-    
     <div class="card" data-tipo="consonante" onclick="voltear(this)">
       <div class="card-frente">
         <h1>U</h1>
@@ -173,7 +231,6 @@
         <h3>Uva</h3>
       </div>
     </div>
-
     <div class="card" data-tipo="consonante" onclick="voltear(this)">
       <div class="card-frente">
         <h1>V</h1>
@@ -183,7 +240,6 @@
         <h3>Vaca</h3>
       </div>
     </div>
-
     <div class="card" data-tipo="consonante" onclick="voltear(this)">
       <div class="card-frente">
         <h1>W</h1>
@@ -193,7 +249,6 @@
         <h3>Wafle</h3>
       </div>
     </div>
-
     <div class="card" data-tipo="consonante" onclick="voltear(this)">
       <div class="card-frente">
         <h1>X</h1>
@@ -203,7 +258,6 @@
         <h3>Xilofono</h3>
       </div>
     </div>
-
     <div class="card" data-tipo="consonante" onclick="voltear(this)">
       <div class="card-frente">
         <h1>Y</h1>
@@ -213,7 +267,6 @@
         <h3>Yate</h3>
       </div>
     </div>
-
     <div class="card" data-tipo="consonante" onclick="voltear(this)">
       <div class="card-frente">
         <h1>Z</h1>
@@ -223,9 +276,7 @@
         <h3>Zapato</h3>
       </div>
     </div>
-
   </main>
-
   <script src="script.js"></script>
 </body>
 </html>
