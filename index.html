@@ -1,78 +1,84 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8">
   <title>ABC - LAB</title>
   <link rel="stylesheet" href="styles.css">
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Playwrite+NZ+Guides&display=swap" rel="stylesheet">
 </head>
+
 <body class="fondo-principal">
+
   <header class="navbar">
     <h1>ABC - LAB</h1>
     <div class="contador-container">
       Tarjetas vistas: <span id="contador">0</span>
     </div>
   </header>
+
   <div class="filtros">
     <button onclick="filtrar('todas')">Mostrar todas</button>
     <button onclick="filtrar('vocales')">Mostrar vocales</button>
   </div>
+
   <main class="grid-cards">
+
     <div class="card" data-tipo="vocal" onclick="voltear(this)">
       <div class="card-frente">
         <h1>A</h1>
       </div>
       <div class="card-dorso">
-        <img
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGVCOsNAIKYcNaqpw9QoqVdrWsfRSb-YKDNbdNlS5o3Q&s=10"
-          alt="Aguacate">
-        <h3>Aguacate</h3>
+        <img src="https://cdn-icons-png.flaticon.com/512/490/490091.png" alt="Árbol">
+        <h3>Árbol</h3>
       </div>
     </div>
+
     <div class="card" data-tipo="consonante" onclick="voltear(this)">
       <div class="card-frente">
         <h1>B</h1>
       </div>
       <div class="card-dorso">
         <img
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxVphVhREfxnvX-ryt05YgJznLHJJAcHtVWpiBGjc4HA&s=10"
-          alt="Burro">
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQe0THhPc3D1hnLVgyDK7sVW8qrC9PkTGxXejuFTFmH4Q&s=10%22 alt="
+          Burro">
         <h3>Burro</h3>
       </div>
     </div>
+
     <div class="card" data-tipo="consonante" onclick="voltear(this)">
       <div class="card-frente">
         <h1>C</h1>
       </div>
       <div class="card-dorso">
-        <img
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWwpI_avS6IuMnvAu3wOT3alxatM0wAScSidrR5BC3Mw&s=10"
-          alt="Casa">
+        <img src="https://cdn-icons-png.flaticon.com/512/619/619032.png" alt="Casa">
         <h3>Casa</h3>
       </div>
     </div>
+
     <div class="card" data-tipo="consonante" onclick="voltear(this)">
       <div class="card-frente">
         <h1>D</h1>
       </div>
       <div class="card-dorso">
         <img
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRD7Mf1IOSajW9jFYb5WR6Sb-h1IK-8vHQQn4EkXi6DmA&s=10"
-          alt="Delfin">
-        <h3>Delfin</h3>
+          src="https://img.magnific.com/vector-gratis/icono-vectorial-dibujos-animados-delfines-lindos-nadando-ilustracion-animales-icono-naturaleza-icono-plano-aislado_138676-12582.jpg?semt=ais_hybrid&w=740&q=80%22 alt="
+          Delfín">
+        <h3>Delfín</h3>
       </div>
     </div>
+
     <div class="card" data-tipo="vocal" onclick="voltear(this)">
       <div class="card-frente">
         <h1>E</h1>
       </div>
       <div class="card-dorso">
-        <img
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPD6szomkUgQsppwpMDGpUSSZ9f2Tp9sGJzD9JoRo3xQ&s=10"
-          alt="Erizo">
-        <h3>Erizo</h3>
+        <img src="https://img.magnific.com/vector-gratis/lindo-personaje-dibujos-animados-elefante_1308-140184.jpg"
+          alt="Elefante">
+        <h3>Elefante</h3>
       </div>
     </div>
 
@@ -81,202 +87,259 @@
         <h1>F</h1>
       </div>
       <div class="card-dorso">
-        <img src="https://via.placeholder.com/100" alt="Foca">
-        <h3>Foca</h3>
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1sQTUq9G4OWSNcpSc_hY4RKLQy-W-8MKaOCJGqCkmUg&s=10%22 alt="
+          Flor">
+        <h3>Flor</h3>
       </div>
     </div>
+
     <div class="card" data-tipo="consonante" onclick="voltear(this)">
       <div class="card-frente">
         <h1>G</h1>
       </div>
       <div class="card-dorso">
-        <img src="https://via.placeholder.com/100" alt="Gato">
+        <img
+          src="https://static.nationalgeographicla.com/files/styles/image_3200/public/nationalgeographic_1468962.jpg?w=1600%22 alt="
+          Gato">
         <h3>Gato</h3>
       </div>
     </div>
+
     <div class="card" data-tipo="consonante" onclick="voltear(this)">
       <div class="card-frente">
         <h1>H</h1>
       </div>
       <div class="card-dorso">
-        <img src="https://via.placeholder.com/100" alt="Helado">
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRu0Ot5WGx772hNrJ2tHx0LcVBscBVcXSUCgp0eNfiGc2h-_GHfP3KNd8Su&s=10%22 alt="
+          Helado">
         <h3>Helado</h3>
       </div>
     </div>
+
     <div class="card" data-tipo="vocal" onclick="voltear(this)">
       <div class="card-frente">
         <h1>I</h1>
       </div>
       <div class="card-dorso">
-        <img src="https://via.placeholder.com/100" alt="Iguana">
-        <h3>Iguana</h3>
+        <img src="https://i.pinimg.com/736x/c3/55/f6/c355f6e5543d32a237096410fb84fd39.jpg" alt="Iguana">
+        <h3>Iglesia</h3>
       </div>
     </div>
+
     <div class="card" data-tipo="consonante" onclick="voltear(this)">
       <div class="card-frente">
         <h1>J</h1>
       </div>
       <div class="card-dorso">
-        <img src="https://via.placeholder.com/100" alt="Jirafa">
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbI-wqbv0-rAqcQouhcIpb90wit2fTaftoC99mpC9bcA&s=10%22 alt="
+          Jirafa">
         <h3>Jirafa</h3>
       </div>
     </div>
+
     <div class="card" data-tipo="consonante" onclick="voltear(this)">
       <div class="card-frente">
         <h1>K</h1>
       </div>
       <div class="card-dorso">
-        <img src="https://via.placeholder.com/100" alt="Kiwi">
-        <h3>Kiwi</h3>
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRy7r2MmtyiFKFpTFKrKebRE1MpsucRWK0ATPSRheNHWcf671xCtWQGZ0A&s=10%22 alt="
+          Koala">
+        <h3>Koala</h3>
       </div>
     </div>
+
     <div class="card" data-tipo="consonante" onclick="voltear(this)">
       <div class="card-frente">
         <h1>L</h1>
       </div>
       <div class="card-dorso">
-        <img src="https://via.placeholder.com/100" alt="Leon">
-        <h3>Leon</h3>
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdP1lUd0mVKmYXTL0p9ACcSlZJo3X_JMAOhXnnAwGRTly_r9aH3uIMqOg&s=10%22 alt="
+          León">
+        <h3>León</h3>
       </div>
     </div>
+
     <div class="card" data-tipo="consonante" onclick="voltear(this)">
       <div class="card-frente">
         <h1>M</h1>
       </div>
       <div class="card-dorso">
-        <img src="https://via.placeholder.com/100" alt="Mono">
+        <img
+          src="https://www.shutterstock.com/image-vector/cartoon-baby-monkey-chimpanzee-hanging-260nw-2647732629.jpg%22 alt="
+          Mono">
         <h3>Mono</h3>
       </div>
     </div>
+
     <div class="card" data-tipo="consonante" onclick="voltear(this)">
       <div class="card-frente">
         <h1>N</h1>
       </div>
       <div class="card-dorso">
-        <img src="https://via.placeholder.com/100" alt="Nube">
-        <h3>Nube</h3>
+        <img src="https://i.pinimg.com/564x/dd/30/27/dd3027332721b212a6ea9758a05833ed.jpg" alt="Nido">
+        <h3>Nene</h3>
       </div>
     </div>
-    <div class="card" data-tipo="consonante" onclick="voltear(this)">
-      <div class="card-frente">
-        <h1>Ñ</h1>
-      </div>
-      <div class="card-dorso">
-        <img src="https://via.placeholder.com/100" alt="Ñandú">
-        <h3>Ñandú</h3>
-      </div>
-    </div>
+
     <div class="card" data-tipo="vocal" onclick="voltear(this)">
       <div class="card-frente">
         <h1>O</h1>
       </div>
       <div class="card-dorso">
-        <img src="https://via.placeholder.com/100" alt="Oso">
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRACOINRyKmP1ra3uOU96SvgzEvIlJ9zYq-PjHgtnU59_dP5iclPLiD7v8m&s=10%22 alt="
+          Oso">
         <h3>Oso</h3>
       </div>
     </div>
+
     <div class="card" data-tipo="consonante" onclick="voltear(this)">
       <div class="card-frente">
         <h1>P</h1>
       </div>
       <div class="card-dorso">
-        <img
-          src="https://es.vecteezy.com/arte-vectorial/12658172-ilustracion-de-vector-de-dibujos-animados-lindo-cachorro-perro"
-          alt="Perro">
+        <img src="https://i.pinimg.com/736x/ae/68/8a/ae688a5338799ef4ea6269b387144a0f.jpg" alt="Perro">
         <h3>Perro</h3>
       </div>
     </div>
+
     <div class="card" data-tipo="consonante" onclick="voltear(this)">
       <div class="card-frente">
         <h1>Q</h1>
       </div>
       <div class="card-dorso">
-        <img src="https://via.placeholder.com/100" alt="Queso">
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeSVga2nD_2uOCMMMKvyGMc2gQFtCQ1QNFg0V5jiXw0DHwA-gqzP9Xitg&s=10%22 alt="
+          Queso">
         <h3>Queso</h3>
       </div>
     </div>
+
     <div class="card" data-tipo="consonante" onclick="voltear(this)">
       <div class="card-frente">
         <h1>R</h1>
       </div>
       <div class="card-dorso">
-        <img src="https://via.placeholder.com/100" alt="Raton">
-        <h3>Raton</h3>
+        <img
+          src="https://img.magnific.com/vector-gratis/diseno-etiqueta-lindo-raton-aislado_1308-59360.jpg?semt=ais_hybrid&w=740&q=80%22 alt="
+          Raton">
+        <h3>Ratón</h3>
       </div>
     </div>
+
     <div class="card" data-tipo="consonante" onclick="voltear(this)">
       <div class="card-frente">
-        <h1>S</S></h1>
+        <h1>S</h1>
       </div>
       <div class="card-dorso">
-        <img src="https://via.placeholder.com/100" alt="Sombrilla">
-        <h3>Sombrilla</h3>
+        <img
+          src="https://img.magnific.com/vector-gratis/ilustracion-sol-dibujos-animados-sonrisa-feliz_1308-179974.jpg?w=360%22 alt="
+          Sol">
+        <h3>Sol</h3>
       </div>
     </div>
+
     <div class="card" data-tipo="consonante" onclick="voltear(this)">
       <div class="card-frente">
         <h1>T</h1>
       </div>
       <div class="card-dorso">
-        <img src="https://via.placeholder.com/100" alt="Tetero">
-        <h3>Tetero</h3>
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ04DA3GjMRkELtpEr1s_DI24nGLc3GUVf28hkWMLp8OtgFRBJW3YVDbkis&s=10%22 alt="
+          Tigre">
+        <h3>Tigre</h3>
       </div>
     </div>
-    <div class="card" data-tipo="consonante" onclick="voltear(this)">
+
+    <div class="card" data-tipo="vocal" onclick="voltear(this)">
       <div class="card-frente">
         <h1>U</h1>
       </div>
       <div class="card-dorso">
-        <img src="https://via.placeholder.com/100" alt="Uva">
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQ0TYOMwQEftdBHH2dG62__hwlRHeA9irXcV0oy0FEwoeobcmyU5KYSUA1&s=10%22 alt="
+          Uva">
         <h3>Uva</h3>
       </div>
     </div>
+
     <div class="card" data-tipo="consonante" onclick="voltear(this)">
       <div class="card-frente">
         <h1>V</h1>
       </div>
       <div class="card-dorso">
-        <img src="https://via.placeholder.com/100" alt="Vaca">
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHATQ-QqP3vMhpjKYYX1jphpDExj0_wGo8XwNrubIMa3DeyPx4ULH2xn4y&s=10%22 alt="
+          Vaca">
         <h3>Vaca</h3>
       </div>
     </div>
+
     <div class="card" data-tipo="consonante" onclick="voltear(this)">
       <div class="card-frente">
         <h1>W</h1>
       </div>
       <div class="card-dorso">
-        <img src="https://via.placeholder.com/100" alt="Wafle">
-        <h3>Wafle</h3>
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJXeH5trTkpROX5gNTU-rMjBCsWUTbtQtArDsSMUSw841vd-LopTwsxdY&s=10%22 alt="
+          Waffle">
+        <h3>Waffle</h3>
       </div>
     </div>
+
     <div class="card" data-tipo="consonante" onclick="voltear(this)">
       <div class="card-frente">
         <h1>X</h1>
       </div>
       <div class="card-dorso">
-        <img src="https://via.placeholder.com/100" alt="Xilofono">
-        <h3>Xilofono</h3>
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9ezbuNBXof-yravHlYopfpHUwEVvXA0QLZP_3oFxaKX5dNO8UGAnt90o&s=10%22 alt="
+          Xilófono">
+        <h3>Xilófono</h3>
       </div>
     </div>
+
     <div class="card" data-tipo="consonante" onclick="voltear(this)">
       <div class="card-frente">
         <h1>Y</h1>
       </div>
       <div class="card-dorso">
-        <img src="https://via.placeholder.com/100" alt="Yate">
+        <img src="https://media.tacdn.com/media/attractions-splice-spp-674x446/12/0e/8d/9a.jpg" alt="Yate">
         <h3>Yate</h3>
       </div>
     </div>
+
     <div class="card" data-tipo="consonante" onclick="voltear(this)">
       <div class="card-frente">
         <h1>Z</h1>
       </div>
       <div class="card-dorso">
-        <img src="https://via.placeholder.com/100" alt="Zapato">
-        <h3>Zapato</h3>
+        <img
+          src="https://static.wikia.nocookie.net/reinoanimalia/images/8/88/Zorro_rojo_4.png/revision/latest?cb=20130514223627&path-prefix=es%22 alt="
+          Zorro">
+        <h3>Zorro</h3>
       </div>
     </div>
+
   </main>
+
+  <footer>
+    <h2>El gran equipo de rescate</h2>
+    <div>
+      <p>Kevin Soto</p>
+      <p>Cesar Restrepo</p>
+      <p>Dannis Rincon</p>
+      <p>Sebastian Pereira</p>
+      <p>Dylan Puentes</p>
+    </div>
+  </footer>
+
   <script src="script.js"></script>
 </body>
+
 </html>
